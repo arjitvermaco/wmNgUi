@@ -10,13 +10,20 @@ import { CategoriesComponent } from './categories/categories/categories.componen
 import { ExpertsComponent } from './experts/experts.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { HowitworksComponent } from './howitworks/howitworks.component';
+import { ContactComponent } from './contact/contact.component';
+import { PricingComponent } from './pricing/pricing.component';
+import { GetstartedComponent } from './getstarted/getstarted.component';
 
 const appRoutes:Routes = [
   {path:'',component:HomeComponent},
   {path:'experts',component:ExpertsComponent},
   {path:'categories',component:CategoriesComponent},
   {path:'how-it-works',component:HowitworksComponent},
-  {path:'blogs',component:BlogsComponent}
+  {path:'contact',component:ContactComponent},
+  {path:'pricing',component:PricingComponent},
+  {path:'blogs',component:BlogsComponent},
+  {path:'get-started',component:GetstartedComponent}
+
 ]
 
 @NgModule({
@@ -29,7 +36,10 @@ const appRoutes:Routes = [
     CategoriesComponent,
     ExpertsComponent,
     BlogsComponent,
-    HowitworksComponent
+    HowitworksComponent,
+    ContactComponent,
+    PricingComponent,
+    GetstartedComponent
   ],
   imports: [
     BrowserModule,

@@ -237,7 +237,7 @@
     display: inline-block;
     float: none;
     width: 100%;
-    color: #ffffff;
+    color: #000;
     font-size: 0.933em;
     line-height: 64px;
     position: relative;
@@ -518,7 +518,7 @@
     display: block;
     height: 2px;
     width: 26px;
-    background: #ffffff;
+    background: #DA4816;
     position: absolute;
     top: 13px;
     border-radius: 3px;
@@ -1556,7 +1556,7 @@
         right: 0;
         max-width: 100%;
         padding: 0px 10px;
-        background: #323232;
+        background: #f8f8f8;
         box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     }
     .mega-menu.desktopTopFixed .menu-list-items .drop-down.grid-col-12,
